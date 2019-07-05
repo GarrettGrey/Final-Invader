@@ -1,0 +1,74 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Enemies here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Enemies extends Mover
+{
+    private final GreenfootImage enemy1 = new GreenfootImage("enemy-1.png");
+    private final GreenfootImage enemy2 = new GreenfootImage("enemy-2.png");
+    private int enemyType;
+    private boolean hitLeft;
+    private boolean isInWorld;
+    
+    public Enemies(int selection){
+        enemyType = selection;
+        isInWorld = true;
+        if (selection == 0){
+            this.speed = 7;
+            setImage(enemy1);
+            enemy1.scale(39, 114);
+        }
+        if (selection == 1){
+            this.speed = 3;
+            setImage(enemy2);
+            enemy2.scale(39, 114);
+        } 
+    }
+    /**
+     * Act - do whatever the Enemies wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        if (enemyType == 0){
+            moveDown();
+        }
+        if (enemyType == 1){
+            moveDown();
+            if (hitLeft != true){
+                moveLeft();
+                if (getX() == 0){
+                    hitLeft = true;
+                }    
+            }
+            if (hitLeft == true){
+                moveRight();
+                if (getX() == 500){
+                    hitLeft = false;
+                }    
+            }    
+        }
+        if (getY() >= 750){
+            getWorld().removeObject(this);
+            isInWorld = false;
+        }
+        if (isInWorld == true){
+            collisionDetection();
+        }    
+        /** 
+         * Enemies should be coming down from random parts of the top of the sceen. Maybe add personality to their movements; a certain enemy moves in a
+         * zigzag, another moves slower, etc.
+         */
+    }
+    
+    private void collisionDetection(){
+        if(getOneObjectAtOffset(-21,29, Player.class) != null || getOneObjectAtOffset(21,29, Player.class)
+        != null){
+            //Player.isDead = true;
+        }  
+    }
+}

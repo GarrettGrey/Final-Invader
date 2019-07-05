@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ Sets\ up\ the\ appearance\ and\ movement\ behaviors\ of\ projectiles\r\n\ \r\n\ Garrett\ Grey\r\n
+comment1.params=projtype
+comment1.target=Projectile(int)
+comment1.text=\r\n\ Projectile\ contructor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Determines\ the\ behavior\ of\ projectiles\r\n
+numComments=3

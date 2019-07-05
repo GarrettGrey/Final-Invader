@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Sets\ up\ the\ Player,\ Enemies,\ and\ powerup\ behaviors\r\n\ \r\n\ Garrett\ Grey\ \r\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\r\n\ Sets\ up\ the\ player\ and\ projectiles\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ up\ the\ player's\ ability\ to\ move\ and\ shoot,\ the\ behavior\ of\ powerups\ when\ they're\ in\ the\ world\ and\ their\ effects\ on\ the\ player,\ and\ when\ enemies\ will\ spawn.\r\n
+comment3.params=
+comment3.target=void\ checkKeys()
+comment3.text=\r\n\ has\ the\ player\ move\ and\ shoot\ when\ the\ coresponding\ keys\ are\ pressed\r\n
+comment4.params=
+comment4.target=void\ die()
+comment4.text=\r\n\ What\ happens\ when\ a\ player\ dies.\r\n
+numComments=5

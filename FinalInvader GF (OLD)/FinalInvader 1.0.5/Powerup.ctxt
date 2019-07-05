@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Powerup
+comment0.text=\r\n\ Sets\ up\ Powerup\ appearances\ which\ for\ some\ reason\ doesn't\ work.\ Eh,\ doesn't\ matter.\r\n\ \r\n\ Garrett\ Grey\r\n
+comment1.params=selection
+comment1.target=Powerup(int)
+comment1.text=\r\n\ Sets\ up\ what\ the\ powerup\ will\ look\ like\r\n
+numComments=2

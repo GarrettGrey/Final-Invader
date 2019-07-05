@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DeadActor
+comment0.text=\r\n\ Explosion\ animation\ for\ dead\ Players\ and\ Enemies\r\n\ \r\n\ Garrett\ Grey\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Does\ a\ short\ animation\ before\ disapearing\r\n
+numComments=2

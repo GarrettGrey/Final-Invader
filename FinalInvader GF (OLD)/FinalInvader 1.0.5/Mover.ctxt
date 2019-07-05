@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\r\n\ Helps\ subcalsses\ move.\r\n\ \r\n\ Garrett\ Grey\r\n
+comment1.params=
+comment1.target=void\ moveRight()
+comment1.text=\r\n\ Move\ an\ object\ to\ the\ right,\ taken\ from\ 2D\ Platformer\r\n
+comment2.params=
+comment2.target=void\ moveLeft()
+comment2.text=\r\n\ Move\ an\ object\ to\ the\ left,\ taken\ from\ 2D\ Platformer\r\n
+comment3.params=
+comment3.target=void\ moveUp()
+comment3.text=\r\n\ Move\ an\ object\ upwards,\ taken\ from\ 2D\ Platformer\r\n
+comment4.params=
+comment4.target=void\ moveDown()
+comment4.text=\r\n\ Move\ an\ object\ downwards,\ taken\ from\ 2D\ Platformer\r\n
+numComments=5

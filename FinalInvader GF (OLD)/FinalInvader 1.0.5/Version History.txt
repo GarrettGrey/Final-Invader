@@ -1,0 +1,8 @@
+.5 (5/2017): Finished for school.
+1.0 (2017?): Renamed from Final Project Space Shooter to Final Invader. Possibly other changes?
+1.0.1 (8/12/18): Made it so that being killed by colliding with an enemy doesn't add score. Added version number to title.png. Added version structure.
+1.0.2 (8/14/18): Added a new green enemy type, with the same movement patters as the red one but twice as fast. Made transparent.png actually transparent.
+1.0.3 (8/15/18): Added laser sounds when the player fires.
+1.0.4 (9/1/18): Made enemies spawn slightly faster. Made it so that enemies don't spawn in the Game Over Screen.
+1.0.4.5 (9/12/18): Added a new orange enemy that moves back and forth and occasionally shooting the player for a while then moving down. Not a complete version yet as the enemy only shoots once (enemy's projectile projInWorld not set to false?) and enemy lasers can't kill the player (Player.die() won't work).
+1.0.5 (10/23/18): Fixed all bugs listed above.
