@@ -1,6 +1,9 @@
 (6/26/19) Minor: Stars appear above all other sprites. This is because sprites appear above other sprites that were added before them. Problem solely cosmedic.
 	  Status: Active
 
+(7/??/19) Major: Sound doesn't play.
+	  Status: Active
+
 
 
 (7/2/19)  Major: Player can only shoot once. This has something to to with projInWorld not being set to false for some reason. Problem prevents player from killing enemies.
