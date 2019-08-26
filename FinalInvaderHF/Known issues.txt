@@ -1,9 +1,6 @@
 (6/26/19) Minor: Stars appear above all other sprites. This is because sprites appear above other sprites that were added before them. Problem solely cosmedic.
 	  Status: Active
 
-(7/??/19) Major: Sound doesn't play. No idea why. Didn't detect during development becuase the computer I was working on was muted.
-	  Status: Active
-
 
 
 (7/2/19)  Major: Player can only shoot once. This has something to to with projInWorld not being set to false for some reason. Problem prevents player from killing enemies.
@@ -14,3 +11,6 @@
 
 (7/3/19)  Major: Enemies sometimes don't die after being hit by proj. Not entirely sure why, can't figure out how to monitor variables to find out. Problem negitavely affects gameplay experience.
 	  Status: Solved, game looked at proj's origin's y coordinate (origin being its lower-left corner), and looked at its x coordinate when I wanted it to look at its y coordinate. (7/4/19)
+
+(7/??/19) Major: Sound doesn't play. No idea why. Didn't detect during development becuase the computer I was working on was muted.
+	  Status: Solved, needed to initialize the sound variables in the constructor, not directly after creating it. Don't know why this worked but whatever. (8/25/19)
