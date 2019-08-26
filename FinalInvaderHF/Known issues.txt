@@ -1,7 +1,7 @@
 (6/26/19) Minor: Stars appear above all other sprites. This is because sprites appear above other sprites that were added before them. Problem solely cosmedic.
 	  Status: Active
 
-(7/??/19) Major: Sound doesn't play.
+(7/??/19) Major: Sound doesn't play. No idea why. Didn't detect during development becuase the computer I was working on was muted.
 	  Status: Active
 
 
